@@ -1,0 +1,413 @@
+/** @define u-space; use strict */
+
+:root {
+  --u-space-rhythm: 1.5rem;
+}
+
+/**
+ * Utils - Space
+ *
+ * Margin and Padding
+ * Sizes: Q(Quarter), H(Half), 3Q(3 Quarters), 1, 1H(1 & 1 Half), 2
+ * Sides: all, top, right, bottom, left, vertical, horizontal;
+ */
+
+/**
+ * Margin
+ *
+ * u-sM
+ */
+
+ /* All */
+
+ .u-sMQ {
+   margin: calc(var(--u-space-rhythm) * .25) !important;
+ }
+
+ .u-sMH {
+   margin: calc(var(--u-space-rhythm) * .5) !important;
+ }
+
+ .u-sM3Q {
+   margin: calc(var(--u-space-rhythm) * .75) !important;
+ }
+
+ .u-sM1 {
+   margin: var(--u-space-rhythm) !important;
+ }
+
+ .u-sM1H {
+   margin: calc(var(--u-space-rhythm) * 1.5) !important;
+ }
+
+ .u-sM2 {
+   margin: calc(var(--u-space-rhythm) * 2) !important;
+ }
+
+/* Top */
+
+.u-sMTQ {
+  margin-top: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMTH {
+  margin-top: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sMT3Q {
+  margin-top: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sMT1 {
+  margin-top: var(--u-space-rhythm) !important;
+}
+
+.u-sMT1H {
+  margin-top: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sMT2 {
+  margin-top: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Right */
+
+.u-sMRQ {
+  margin-right: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMRH {
+  margin-right: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sMR3Q {
+  margin-right: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sMR1 {
+  margin-right: var(--u-space-rhythm) !important;
+}
+
+.u-sMR1H {
+  margin-right: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sMR2 {
+  margin-right: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Bottom */
+
+.u-sMBQ {
+  margin-bottom: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMBH {
+  margin-bottom: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sMB3Q {
+  margin-bottom: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sMB1 {
+  margin-bottom: var(--u-space-rhythm) !important;
+}
+
+.u-sMB1H {
+  margin-bottom: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sMB2 {
+  margin-bottom: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Left */
+
+.u-sMLQ {
+  margin-left: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMLH {
+  margin-left: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sML3Q {
+  margin-left: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sML1 {
+  margin-left: var(--u-space-rhythm) !important;
+}
+
+.u-sML1H {
+  margin-left: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sML2 {
+  margin-left: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Vertical */
+
+.u-sMVQ {
+  margin-top: calc(var(--u-space-rhythm) * .25) !important;
+  margin-bottom: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMVH {
+  margin-top: calc(var(--u-space-rhythm) * .5) !important;
+  margin-bottom: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sMV3Q {
+  margin-top: calc(var(--u-space-rhythm) * .75) !important;
+  margin-bottom: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sMV1 {
+  margin-top: var(--u-space-rhythm) !important;
+  margin-bottom: var(--u-space-rhythm) !important;
+}
+
+.u-sMV1H {
+  margin-top: calc(var(--u-space-rhythm) * 1.5) !important;
+  margin-bottom: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sMV2 {
+  margin-top: calc(var(--u-space-rhythm) * 2) !important;
+  margin-bottom: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Horizontal */
+
+.u-sMHQ {
+  margin-left: calc(var(--u-space-rhythm) * .25) !important;
+  margin-right: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sMHH {
+  margin-left: calc(var(--u-space-rhythm) * .5) !important;
+  margin-right: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sMH3Q {
+  margin-left: calc(var(--u-space-rhythm) * .75) !important;
+  margin-right: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sMH1 {
+  margin-left: var(--u-space-rhythm) !important;
+  margin-right: var(--u-space-rhythm) !important;
+}
+
+.u-sMH1H {
+  margin-left: calc(var(--u-space-rhythm) * 1.5) !important;
+  margin-right: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sMH2 {
+  margin-left: calc(var(--u-space-rhythm) * 2) !important;
+  margin-right: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/**
+ * Padding
+ *
+ * u-sP
+ */
+
+ /* All */
+
+ .u-sPQ {
+   padding: calc(var(--u-space-rhythm) * .25) !important;
+ }
+
+ .u-sPH {
+   padding: calc(var(--u-space-rhythm) * .5) !important;
+ }
+
+ .u-sP3Q {
+   padding: calc(var(--u-space-rhythm) * .75) !important;
+ }
+
+ .u-sP1 {
+   padding: var(--u-space-rhythm) !important;
+ }
+
+ .u-sP1H {
+   padding: calc(var(--u-space-rhythm) * 1.5) !important;
+ }
+
+ .u-sP2 {
+   padding: calc(var(--u-space-rhythm) * 2) !important;
+ }
+
+/* Top */
+
+.u-sPTQ {
+  padding-top: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPTH {
+  padding-top: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPT3Q {
+  padding-top: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPT1 {
+  padding-top: var(--u-space-rhythm) !important;
+}
+
+.u-sPT1H {
+  padding-top: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPT2 {
+  padding-top: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Right */
+
+.u-sPRQ {
+  padding-right: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPRH {
+  padding-right: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPR3Q {
+  padding-right: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPR1 {
+  padding-right: var(--u-space-rhythm) !important;
+}
+
+.u-sPR1H {
+  padding-right: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPR2 {
+  padding-right: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Bottom */
+
+.u-sPBQ {
+  padding-bottom: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPBH {
+  padding-bottom: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPB3Q {
+  padding-bottom: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPB1 {
+  padding-bottom: var(--u-space-rhythm) !important;
+}
+
+.u-sPB1H {
+  padding-bottom: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPB2 {
+  padding-bottom: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Left */
+
+.u-sPLQ {
+  padding-left: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPLH {
+  padding-left: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPL3Q {
+  padding-left: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPL1 {
+  padding-left: var(--u-space-rhythm) !important;
+}
+
+.u-sPL1H {
+  padding-left: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPL2 {
+  padding-left: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Vertical */
+
+.u-sPVQ {
+  padding-top: calc(var(--u-space-rhythm) * .25) !important;
+  padding-bottom: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPVH {
+  padding-top: calc(var(--u-space-rhythm) * .5) !important;
+  padding-bottom: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPV3Q {
+  padding-top: calc(var(--u-space-rhythm) * .75) !important;
+  padding-bottom: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPV1 {
+  padding-top: var(--u-space-rhythm) !important;
+  padding-bottom: var(--u-space-rhythm) !important;
+}
+
+.u-sPV1H {
+  padding-top: calc(var(--u-space-rhythm) * 1.5) !important;
+  padding-bottom: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPV2 {
+  padding-top: calc(var(--u-space-rhythm) * 2) !important;
+  padding-bottom: calc(var(--u-space-rhythm) * 2) !important;
+}
+
+/* Horizontal */
+
+.u-sPHQ {
+  padding-left: calc(var(--u-space-rhythm) * .25) !important;
+  padding-right: calc(var(--u-space-rhythm) * .25) !important;
+}
+
+.u-sPHH {
+  padding-left: calc(var(--u-space-rhythm) * .5) !important;
+  padding-right: calc(var(--u-space-rhythm) * .5) !important;
+}
+
+.u-sPH3Q {
+  padding-left: calc(var(--u-space-rhythm) * .75) !important;
+  padding-right: calc(var(--u-space-rhythm) * .75) !important;
+}
+
+.u-sPH1 {
+  padding-left: var(--u-space-rhythm) !important;
+  padding-right: var(--u-space-rhythm) !important;
+}
+
+.u-sPH1H {
+  padding-left: calc(var(--u-space-rhythm) * 1.5) !important;
+  padding-right: calc(var(--u-space-rhythm) * 1.5) !important;
+}
+
+.u-sPH2 {
+  padding-left: calc(var(--u-space-rhythm) * 2) !important;
+  padding-right: calc(var(--u-space-rhythm) * 2) !important;
+}

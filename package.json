@@ -1,0 +1,20 @@
+{
+  "name": "6oz-utils-space",
+  "version": "1.0.0",
+  "description": "A utility for creating rhythmic spacing.",
+  "main": "index.js",
+  "style": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lukebrooker/6oz-utils-space"
+  },
+  "author": "Luke Brooker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukebrooker/6oz-utils-space/issues"
+  },
+  "homepage": "https://github.com/lukebrooker/6oz-utils-space"
+}
